@@ -11,6 +11,7 @@ const config = {
     hardhat: {
       gasPrice,
       initialBaseFeePerGas: 0,
+      hardfork: 'london',
     },
   },
   analytics: { enabled: false },
